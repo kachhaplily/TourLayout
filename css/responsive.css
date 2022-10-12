@@ -1,0 +1,130 @@
+@media (max-width:868px) {
+  .container {
+    padding: 20px 15px;
+    font-size: 15px;
+  }
+
+  .container h1 {
+    font-size: 25px;
+  }
+
+  .navbar {
+    padding: 0 20px;
+  }
+
+  .logocontent .fa {
+    font-size: 25px;
+  }
+
+  .logocontent {
+    position: static;
+    font-size: 30px;
+  }
+
+  .icon {
+    display: block;
+  }
+
+  .icon .hide {
+    display: none;
+  }
+
+
+  .navbar .menulist {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: -100%;
+    height: 100vh;
+    width: 70%;
+    max-width: 420px;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+    display: block;
+    padding: 70px 10px;
+    transition: all 0.3s ease;
+  }
+
+  .navbar .menulist.active {
+    left: 0;
+  }
+
+  .navbar .menulist li {
+    display: block;
+  }
+
+  .navbar .menulist li a {
+    font-size: 15px;
+    font-weight: 700;
+    color: black;
+
+  }
+
+  .navbar .menulist li a:hover {
+    color: gray;
+    padding-left: 10px;
+  }
+
+  .form-element {
+    width: 100%;
+  }
+
+  .reg-form form input,
+  .footer-box {
+    width: 100%;
+  }
+
+  .booking-box,
+  .tour-pakage,
+  .about-us,
+  .tour-video {
+    padding: 20px 0;
+  }
+
+  .about-us {
+    flex-wrap: wrap;
+    font-size: 14px;
+  }
+
+  .p1::before,
+  .p1::after,
+  .p2::before,
+  .p2::after,
+  .c1::before,
+  .c1::after,
+  .c2::before,
+  .c2::after {
+    display: none;
+  }
+
+  .about,
+  .testimony-quotes {
+    max-width: 100%;
+  }
+
+
+  .testimony-container span {
+    font-size: 13px;
+  }
+
+  .quotes-name {
+    padding: 30px;
+  }
+
+  .video-container video {
+    height: auto;
+    width: 100%;
+    object-fit: fill;
+  }
+
+  .footer-container {
+    flex-wrap: wrap;
+  }
+
+  .footer-data ul li {
+    display: inline-block;
+    padding: 12px;
+  }
+}
+
+/* i pad view  */
+@media (max-width:500px) {}
